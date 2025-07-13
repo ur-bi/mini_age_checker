@@ -1,0 +1,61 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0f0e0e;
+    box-sizing: border-box;  
+}
+
+form {
+    font-size: 1.3rem;
+    color: #0aeba0;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 20%;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00ffff;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    text-align: left;
+    line-height: 0.3;
+    letter-spacing: 0.5px;
+    word-spacing: 2.5px;
+    color: #0ef;
+}
+
+input {
+    width: 60%;
+    border: 1px solid #00ffff;
+    border-radius: 3px;
+}
+
+button {
+    font-size: 1.3rem;
+    background-color: #0aeba0;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0cebeb;
+}
+
+.ur_age {
+    font-size: 1rem;
+    color: #00ffff;
+    font-weight: bold;
+}
